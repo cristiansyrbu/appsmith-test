@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#FFDEDE",
@@ -8,6 +11,13 @@
     {
       "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Users Posts",
+      "isDefault": false
     }
-  ]
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  }
 }
