@@ -41,7 +41,11 @@
     "views"
   ],
   "columnUpdatedAt": 1733763667465,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "reactions": 235,
+    "tags": 234,
+    "title": 303
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,

@@ -51,7 +51,7 @@
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 51,
+  "rightColumn": 48,
   "serverSideFiltering": false,
   "sourceData": "{{GetUsers.data.users.map(item => ({ label: `${item.firstName} ${item.lastName}, ID: ${item.id}`, value: item.id }))}}",
   "topRow": 0,

@@ -55,7 +55,9 @@
     "thumbnail"
   ],
   "columnUpdatedAt": 1733752667814,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "tags": 250
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -147,6 +149,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.title.isCellVisible"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -170,8 +175,8 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "originalBottomRow": 78,
-  "originalTopRow": 31,
+  "originalBottomRow": 54,
+  "originalTopRow": 7,
   "parentColumnSpace": 11.484375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -724,7 +729,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "tags",
+      "label": "Tags",
       "notation": "standard",
       "originalId": "tags",
       "sticky": "",
@@ -779,7 +784,7 @@
       "id": "title",
       "index": 1,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "true",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
