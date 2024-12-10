@@ -27,7 +27,7 @@
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
-  "isVisible": "{{get_posts_by_user.data.posts.length === 0}}",
+  "isVisible": "{{GetPostsByUser.data.posts.length === 0}}",
   "key": "7tq2rlves7",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

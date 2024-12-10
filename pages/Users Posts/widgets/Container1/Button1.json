@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "onClick": "{{get_posts_by_user.run()}}",
+  "onClick": "{{GetPostsByUser.run()}}",
   "parentColumnSpace": 6.32177734375,
   "parentId": "pfjsizctqw",
   "parentRowSpace": 10,

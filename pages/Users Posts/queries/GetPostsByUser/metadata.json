@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6756f2273581ad6dd95ff87c_70d0dea9-6cbf-469d-ae9b-82a9cc683fbc",
-  "id": "Dashboard_get_users",
+  "gitSyncId": "6756f2273581ad6dd95ff87c_8dd92aff-9d95-4459-bee5-548691b20cc6",
+  "id": "Users Posts_GetPostsByUser",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users",
+      "path": "/users/{{User.selectedOptionValue}}/posts",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -34,10 +34,14 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "get_users",
-    "pageId": "Dashboard",
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
+    "executeOnLoad": true,
+    "name": "GetPostsByUser",
+    "pageId": "Users Posts",
     "userSetOnLoad": false
   }
 }

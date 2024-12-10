@@ -3,7 +3,7 @@
   "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 45,
   "boxShadow": "none",
   "defaultOptionValue": [
     "GREEN"
@@ -42,7 +42,7 @@
   "mobileTopRow": 24,
   "mode": "SHOW_ALL",
   "needsErrorInfo": false,
-  "options": "{{get_products.data.products.map(item => ({ label: item.title, value: item.id }))}}",
+  "options": "{{GetProducts.data.products.map(item => ({ label: item.title, value: item.id }))}}",
   "originalBottomRow": 31,
   "originalTopRow": 24,
   "parentColumnSpace": 11.171875,
@@ -52,7 +52,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 21,
-  "topRow": 24,
+  "topRow": 38,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
   "widgetId": "qw2m9lkngc",

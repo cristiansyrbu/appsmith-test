@@ -53,7 +53,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 51,
   "serverSideFiltering": false,
-  "sourceData": "{{get_users.data.users.map(item => ({ label: `${item.firstName} ${item.lastName}, ID: ${item.id}`, value: item.id }))}}",
+  "sourceData": "{{GetUsers.data.users.map(item => ({ label: `${item.firstName} ${item.lastName}, ID: ${item.id}`, value: item.id }))}}",
   "topRow": 0,
   "type": "SELECT_WIDGET",
   "version": 1,

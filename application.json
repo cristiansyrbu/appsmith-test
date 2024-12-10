@@ -32,6 +32,10 @@
     {
       "id": "Users Posts",
       "isDefault": false
+    },
+    {
+      "id": "Only Admin Area",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
