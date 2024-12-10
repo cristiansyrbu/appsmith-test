@@ -3,7 +3,7 @@
   "allowClear": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 45,
+  "bottomRow": 31,
   "boxShadow": "none",
   "defaultOptionValue": [
     "GREEN"
@@ -52,7 +52,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 21,
-  "topRow": 38,
+  "topRow": 24,
   "type": "MULTI_SELECT_TREE_WIDGET",
   "version": 1,
   "widgetId": "qw2m9lkngc",

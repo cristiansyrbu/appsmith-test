@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users/6",
+      "path": "/users/{{UserIdInput.text}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -34,7 +34,11 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
     "executeOnLoad": true,
     "name": "GetRole",
     "pageId": "Dashboard",
