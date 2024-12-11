@@ -173,10 +173,10 @@
   "mobileRightColumn": 43,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "originalBottomRow": 70,
-  "originalTopRow": 23,
+  "originalBottomRow": 99,
+  "originalTopRow": 52,
   "parentColumnSpace": 11.484375,
-  "parentId": "6x8kiy6qeh",
+  "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumns": {
     "availabilityStatus": {
@@ -864,7 +864,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "searchKey": "",
   "tableData": "{{GetProducts.data.products}}",
   "textSize": "0.875rem",
@@ -873,6 +873,6 @@
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "77l4c7lc6w",
+  "widgetId": "m9k2vf95yx",
   "widgetName": "Products"
 }
