@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 92,
+  "bottomRow": 109,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,50 +11,42 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "isVisible"
-    }
-  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
-  "isVisible": "{{GetPostsByUser.data.posts.length === 0}}",
-  "key": "7tq2rlves7",
-  "leftColumn": 0,
+  "isVisible": true,
+  "key": "ukvz8iuqlj",
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 54,
-  "mobileLeftColumn": 14,
-  "mobileRightColumn": 30,
-  "mobileTopRow": 50,
+  "mobileBottomRow": 118,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 114,
   "needsErrorInfo": false,
-  "originalBottomRow": 45,
-  "originalTopRow": 41,
+  "originalBottomRow": 108,
+  "originalTopRow": 104,
   "overflow": "NONE",
-  "parentColumnSpace": 20.21875,
-  "parentId": "0",
+  "parentColumnSpace": 17.5,
+  "parentId": "6x8kiy6qeh",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 16,
+  "rightColumn": 17,
   "shouldTruncate": false,
-  "text": "There is no posts for this user.",
+  "text": "Test text",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 41,
+  "topRow": 105,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "8qyamv1aaz",
-  "widgetName": "Text1"
+  "widgetId": "d3582ds9ru",
+  "widgetName": "Text4"
 }

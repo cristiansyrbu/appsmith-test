@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "6756f2273581ad6dd95ff87c_3b5941e1-35ff-4663-a0a1-fc1a40112b01",
+  "gitSyncId": "6756f2273581ad6dd95ff87c_7e2489fe-3f13-432c-983e-5558c3a5d8b0",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 920,
+          "bottomRow": 1150,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 720,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 70,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Users Posts",
-    "slug": "users-posts"
+    "name": "Main Page",
+    "slug": "main-page"
   }
 }

@@ -26,8 +26,12 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "Dashboard",
+      "id": "Login",
       "isDefault": true
+    },
+    {
+      "id": "Main Page",
+      "isDefault": false
     },
     {
       "id": "Users Posts",
